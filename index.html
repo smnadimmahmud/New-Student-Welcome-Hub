@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIU New Student Management Hub - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-area">
+        <div class="logo-img-wrapper">
+  <img src="image/logo.png" alt="AIU Logo" class="logo-img" />
+</div>
+
+        <div class="logo-text">
+          <span class="logo-main">AIU Welcome Hub</span>
+          <span class="logo-sub">New Student Orientation Portal</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <a href="#" class="btn btn-outline">Login / Register</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+
+      <!-- Hero Section -->
+      <section class="card hero-grid">
+        <div class="hero-text">
+          <div class="badge">Welcome New Students</div>
+          <h1>Start Your AIU Journey with Confidence</h1>
+          <p>
+            This hub guides you from your arrival at AIU until you settle into your room.
+            Check your transport schedule, registration steps, key collection, student card,
+            and WOW (Week of Welcome) activities.
+          </p>
+          <div class="hero-actions">
+            <button class="btn">View Arrival Guide</button>
+            <button class="btn btn-ghost">Download Orientation Schedule</button>
+          </div>
+
+          <!-- Text field + checkbox -->
+          <div class="inline-form">
+            <input type="text" placeholder="Enter your AIU Student ID..." />
+            <label class="checkbox-inline">
+              <input type="checkbox" />
+              Remember this device for next visit
+            </label>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Video element -->
+          <video controls>
+            <source src="image/video f.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p class="media-caption">Featured: Welcome to AIU – New Student Orientation Overview</p>
+        </div>
+      </section>
+
+      <!-- Arrival & Events -->
+      <section class="layout-two-col">
+        <!-- Left: Arrival process + audio -->
+        <div class="card full-height">
+          <div class="card-header">
+            <h2>Arrival &amp; Campus Highlights</h2>
+          </div>
+          <!-- Audio element -->
+          <audio controls class="full-width-audio">
+            <source src="arrival-instructions.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <p class="section-text">
+            Listen to the step-by-step instructions for: airport pickup, bus transfer to AIU,
+            check-in at the Welcome Desk, room allocation, and key collection.
+          </p>
+        </div>
+
+        <!-- Right: Events + search -->
+        <div class="right-column-stack">
+          <div class="card">
+            <div class="card-header between">
+              <h2>Important Orientation Events</h2>
+              <a href="#" class="link-small">View Full Schedule</a>
+            </div>
+            <!-- Table element -->
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Event</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Feb 20</td>
+                  <td>Airport &amp; Bus Arrival</td>
+                  <td>AIU Main Gate</td>
+                </tr>
+                <tr>
+                  <td>Feb 21</td>
+                  <td>Central Registration &amp; Student Card</td>
+                  <td>Hall A</td>
+                </tr>
+                <tr>
+                  <td>Feb 22</td>
+                  <td>Room Key Collection &amp; Briefing</td>
+                  <td>Residential Lobby</td>
+                </tr>
+                <tr>
+                  <td>Feb 23–27</td>
+                  <td>WOW – Week of Welcome</td>
+                  <td>Across Campus</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h2>Check Your Transport &amp; Room</h2>
+            </div>
+            <p class="section-text">
+              Use this quick tool to search your assigned bus, block, and room number.
+            </p>
+            <div class="directory-search">
+              <label class="field-label">Search Welcome Directory</label>
+              <div class="search-row">
+                <input type="text" placeholder="Enter passport no. or AIU ID..." />
+                <button class="btn icon-btn">🔍</button>
+              </div>
+              <label class="checkbox-inline mt-8">
+                <input type="checkbox" />
+                Email my arrival details and room allocation to me.
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- President / Rector Message -->
+      <section class="card">
+        <div class="card-header">
+          <h2>Rector's Welcome Message</h2>
+        </div>
+        <p class="section-text">
+          Watch a special message from the AIU Rector sharing expectations, campus values,
+          and tips for your first week at the university.
+        </p>
+        <video controls class="full-width-video">
+          <source src="rector-message.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">AIU New Student Welcome Hub</h3>
+        <p>
+          Supporting your journey from arrival to a comfortable stay on campus.
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Transport Schedule</a></li>
+          <li><a href="#">Orientation Timetable</a></li>
+          <li><a href="#">Residential Guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p>welcome@aiu.edu.my<br />+60 4-123 4567</p>
+        <div class="social-row">
+          <span>▢</span><span>▢</span><span>▢</span><span>▢</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 AIU New Student Welcome Hub. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

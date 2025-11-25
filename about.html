@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIU New Student Welcome Hub - About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-area">
+        <div class="logo-img-wrapper">
+  <img src="image/logo.png" alt="AIU Logo" class="logo-img" />
+      </div>
+
+        <div class="logo-text">
+          <span class="logo-main">AIU Welcome Hub</span>
+          <span class="logo-sub">New Student Orientation Portal</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <a href="#" class="btn btn-outline">Login / Register</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <section class="card">
+        <h1 class="page-title">About the New Student Welcome Hub</h1>
+        <p class="section-text">
+          The AIU New Student Welcome Hub is designed to guide you through every step of
+          your first week: arrival, registration, room allocation, key and card collection,
+          and the WOW (Week of Welcome) program.
+        </p>
+      </section>
+
+      <!-- History & Values -->
+      <section class="layout-two-col">
+        <div class="card">
+          <div class="card-header">
+            <h2>Arrival Journey Overview</h2>
+          </div>
+          <video controls class="full-width-video">
+            <source src="arrival-journey.mp4" type="video/mp4" />
+          </video>
+          <p class="media-caption">
+            Short video: from airport/bus arrival until you receive your room key.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>AIU Orientation Theme &amp; Values</h2>
+          </div>
+          <p class="section-text">
+            This year's orientation theme is <strong>"Growing Together"</strong>.
+          </p>
+          <audio controls class="full-width-audio">
+            <source src="welcome-song.mp3" type="audio/mpeg" />
+          </audio>
+          <ul class="values-list">
+            <li><strong>Respect:</strong> Caring for students from all backgrounds.</li>
+            <li><strong>Support:</strong> Helping you adjust to campus life smoothly.</li>
+            <li><strong>Growth:</strong> Encouraging personal and academic success.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Milestones of orientation week -->
+      <section class="card">
+        <div class="card-header between">
+          <h2>Orientation Week Milestones</h2>
+          <button class="btn btn-ghost">Download Full Plan</button>
+        </div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Milestone</th>
+              <th>Description</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Day 1</td>
+              <td>Arrival &amp; Transport</td>
+              <td>Pickup from airport/bus station and arrival at AIU campus.</td>
+              <td class="status-completed">Completed</td>
+            </tr>
+            <tr>
+              <td>Day 2</td>
+              <td>Registration &amp; Student Card</td>
+              <td>Document verification and student ID card printing.</td>
+              <td class="status-progress">In Progress</td>
+            </tr>
+            <tr>
+              <td>Day 3</td>
+              <td>Room Allocation &amp; Key Delivery</td>
+              <td>Receive your room assignment and key at Residential Lobby.</td>
+              <td class="status-pending">Upcoming</td>
+            </tr>
+            <tr>
+              <td>Day 4–7</td>
+              <td>WOW – Week of Welcome</td>
+              <td>Campus tours, info sessions, and social activities.</td>
+              <td class="status-pending">Upcoming</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Volunteer buddies -->
+      <section class="card layout-two-col">
+        <div>
+          <div class="card-header">
+            <h2>Student Buddy Program</h2>
+          </div>
+          <p class="section-text">
+            Senior students volunteer as buddies to guide new students with transport,
+            room issues, and campus navigation during the first week.
+          </p>
+          <div class="button-group">
+            <button class="btn btn-ghost">Meet the Buddies</button>
+            <button class="btn btn-ghost">WOW Schedule</button>
+            <button class="btn btn-ghost">FAQ</button>
+            <button class="btn">Become a Buddy</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="card-header">
+            <h2>Buddy Application (For Seniors)</h2>
+          </div>
+          <form class="simple-form">
+            <label>
+              Full Name
+              <input type="text" placeholder="Jane Doe" />
+            </label>
+            <label>
+              Program / Year
+              <input type="text" placeholder="BSc CS, Year 3" />
+            </label>
+
+            <fieldset class="radio-group">
+              <legend>Preferred Support Area</legend>
+              <label><input type="radio" name="support" /> Transport &amp; Arrival</label>
+              <label><input type="radio" name="support" /> Registration Desk</label>
+              <label><input type="radio" name="support" /> Residential Blocks</label>
+            </fieldset>
+
+            <label class="checkbox-inline mt-8">
+              <input type="checkbox" />
+              I agree to attend training and follow the AIU buddy guidelines.
+            </label>
+
+            <button class="btn mt-12" type="submit">Submit Application</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">AIU New Student Welcome Hub</h3>
+        <p>
+          Supporting your journey from arrival to a comfortable stay on campus.
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Transport Schedule</a></li>
+          <li><a href="#">Orientation Timetable</a></li>
+          <li><a href="#">Residential Guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p>welcome@aiu.edu.my<br />+60 4-123 4567</p>
+        <div class="social-row">
+          <span>▢</span><span>▢</span><span>▢</span><span>▢</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 AIU New Student Welcome Hub. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIU New Student Welcome Hub - Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-area">
+        <div class="logo-icon">AIU</div>
+        <div class="logo-text">
+          <span class="logo-main">AIU Welcome Hub</span>
+          <span class="logo-sub">New Student Orientation Portal</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <a href="#" class="btn btn-outline">Login / Register</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <section class="card">
+        <h1 class="page-title">WOW Week Moments &amp; Campus Life</h1>
+        <p class="section-text">
+          Explore highlights from orientation, room move-in, WOW program, and campus
+          tours for new students.
+        </p>
+      </section>
+
+      <!-- Search & Filter -->
+      <section class="card filter-row">
+        <div class="filter-group">
+          <label>
+            Search
+            <input type="text" placeholder="Search events or tags..." />
+          </label>
+        </div>
+        <div class="filter-group">
+          <label>
+            Year
+            <select>
+              <option>2025</option>
+              <option>2024</option>
+              <option>2023</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-group checkbox-inline">
+          <label>
+            <input type="checkbox" />
+            WOW events only
+          </label>
+        </div>
+        <button class="btn">Filter</button>
+      </section>
+
+      <!-- Gallery grid -->
+      <section class="gallery-grid">
+        <div class="card gallery-main">
+          <video controls class="full-width-video">
+            <source src="wow-week-recap.mp4" type="video/mp4" />
+          </video>
+          <p class="media-caption">WOW Week 2025 – Highlights from the first week of classes.</p>
+        </div>
+        <div class="card">
+          <h3>Move-In Day</h3>
+          <img
+            src="image/Day.png"
+            alt="Move In"
+            class="gallery-img"
+          />
+          <a href="#" class="link-small">View Album (30 Photos)</a>
+        </div>
+        <div class="card">
+          <h3>Campus Night Tour</h3>
+          <img
+            src="image/night.jpg"
+            alt="Night Tour"
+            class="gallery-img"
+          />
+          <a href="#" class="link-small">View Album (18 Photos)</a>
+        </div>
+        <div class="card">
+          <h3>Student Card Collection</h3>
+          <img
+            src="image/idc.jpg"
+            alt="ID Card"
+            class="gallery-img"
+          />
+          <a href="#" class="link-small">View Album (12 Photos)</a>
+        </div>
+      </section>
+
+      <!-- Media Archive Table -->
+      <section class="card">
+        <div class="card-header between">
+          <h2>Orientation Media Archives</h2>
+          <button class="btn btn-ghost">View All Archive</button>
+        </div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Event</th>
+              <th>Media Type</th>
+              <th>File Size</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025</td>
+              <td>WOW Opening Ceremony</td>
+              <td>Video</td>
+              <td>1.2 GB</td>
+              <td><button class="btn btn-ghost">Download</button></td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>Move-In Day Photos</td>
+              <td>Images</td>
+              <td>450 MB</td>
+              <td><button class="btn btn-ghost">Download</button></td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Orientation Closing Night</td>
+              <td>Video</td>
+              <td>800 MB</td>
+              <td><button class="btn btn-ghost">Download</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Audio stories -->
+      <section class="card">
+        <div class="card-header">
+          <h2>New Student Stories (Audio)</h2>
+        </div>
+        <p class="section-text">
+          Listen to short experiences from first-year students about transport, room
+          allocation, and WOW program activities.
+        </p>
+        <audio controls class="full-width-audio">
+          <source src="new-student-stories.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">AIU New Student Welcome Hub</h3>
+        <p>
+          Supporting your journey from arrival to a comfortable stay on campus.
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Transport Schedule</a></li>
+          <li><a href="#">Orientation Timetable</a></li>
+          <li><a href="#">Residential Guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p>welcome@aiu.edu.my<br />+60 4-123 4567</p>
+        <div class="social-row">
+          <span>▢</span><span>▢</span><span>▢</span><span>▢</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 AIU New Student Welcome Hub. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

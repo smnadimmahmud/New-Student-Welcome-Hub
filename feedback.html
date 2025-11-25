@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIU New Student Welcome Hub - Feedback</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-area">
+        <div class="logo-icon">AIU</div>
+        <div class="logo-text">
+          <span class="logo-main">AIU Welcome Hub</span>
+          <span class="logo-sub">New Student Orientation Portal</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </nav>
+      <a href="#" class="btn btn-outline">Login / Register</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <section class="card">
+        <h1 class="page-title">We Want to Hear from You</h1>
+        <p class="section-text">
+          Use this page to report room problems (e.g., light, fan, key, internet) and
+          share feedback about transport, registration, and WOW activities.
+        </p>
+      </section>
+
+      <section class="layout-two-col">
+        <!-- Feedback Form -->
+        <div class="card">
+          <div class="card-header">
+            <h2>Room Report &amp; Orientation Feedback</h2>
+          </div>
+          <form class="simple-form">
+            <label>
+              Topic Category
+              <input type="text" placeholder="Room issue / Transport / Registration / WOW..." />
+            </label>
+
+            <!-- Radio buttons for satisfaction -->
+            <fieldset class="radio-group">
+              <legend>Overall Orientation Experience</legend>
+              <label><input type="radio" name="satisfaction" /> Very Satisfied</label>
+              <label><input type="radio" name="satisfaction" /> Satisfied</label>
+              <label><input type="radio" name="satisfaction" /> Neutral</label>
+              <label><input type="radio" name="satisfaction" /> Dissatisfied</label>
+            </fieldset>
+
+            <label>
+              Detailed Feedback / Room Issue
+              <textarea rows="4" placeholder="Describe your experience or room problem..."></textarea>
+            </label>
+
+            <label>
+              Room &amp; Block Number
+              <input type="text" placeholder="e.g., Block C, Room 305" />
+            </label>
+
+            <label>
+              Your Name (Optional)
+              <input type="text" placeholder="Leave blank to remain anonymous" />
+            </label>
+
+            <label class="checkbox-inline mt-8">
+              <input type="checkbox" />
+              I would like a staff member to contact me about this issue.
+            </label>
+
+            <button type="submit" class="btn mt-12">Submit Feedback</button>
+          </form>
+        </div>
+
+        <!-- Right Column: Video + Audio -->
+        <div class="right-column-stack">
+          <div class="card">
+            <div class="card-header">
+              <h2>How Feedback is Used</h2>
+            </div>
+            <video controls class="full-width-video">
+              <source src="feedback-impact.mp4" type="video/mp4" />
+            </video>
+            <p class="media-caption">
+              Video explaining how student comments help improve rooms, transport, and WOW
+              programs each semester.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h2>Message from Orientation Coordinator</h2>
+            </div>
+            <audio controls class="full-width-audio">
+              <source src="coordinator-message.mp3" type="audio/mpeg" />
+            </audio>
+            <p class="section-text">
+              A personal thank-you for helping us create a better welcome experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recent Fixes / Suggestions Table -->
+      <section class="card">
+        <div class="card-header between">
+          <h2>Recent Actions from Student Feedback</h2>
+          <div class="badge badge-green">92% Orientation Satisfaction</div>
+        </div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Area</th>
+              <th>Action Taken</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Feb 24, 2025</td>
+              <td>Block B – Wi-Fi</td>
+              <td>Network upgraded after multiple connection issues reported.</td>
+              <td class="status-completed">Completed</td>
+            </tr>
+            <tr>
+              <td>Feb 23, 2025</td>
+              <td>Airport Bus Timing</td>
+              <td>Extra bus added for late-night arrivals.</td>
+              <td class="status-progress">In Progress</td>
+            </tr>
+            <tr>
+              <td>Feb 22, 2025</td>
+              <td>Room Maintenance</td>
+              <td>Faster response team for broken lights and fans.</td>
+              <td class="status-progress">In Progress</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">AIU New Student Welcome Hub</h3>
+        <p>
+          Supporting your journey from arrival to a comfortable stay on campus.
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Transport Schedule</a></li>
+          <li><a href="#">Orientation Timetable</a></li>
+          <li><a href="#">Residential Guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p>welcome@aiu.edu.my<br />+60 4-123 4567</p>
+        <div class="social-row">
+          <span>▢</span><span>▢</span><span>▢</span><span>▢</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 AIU New Student Welcome Hub. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
